@@ -78,7 +78,7 @@ public class GenerateFinalReport
                         writer.write("RACE|"); //ethnic group
                         writer.write("WEIGHT|"); //weight in ounces
                         writer.write("HEIGHT|"); //height in foot/inches
-                         writer.write("HEIGHT|"); //BMI
+                         writer.write("BMI|"); //BMI
                         
                         writer.write("CURRENT DIAGNOSIS|"); // current diagnosis
                         
