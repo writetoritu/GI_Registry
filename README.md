@@ -1,6 +1,6 @@
 GI_Registry
 ===========
-This repository contains the code to extract the GI registry SmartForm elements from the CHOP warehouse. 
+This repository contains the code to extract the SmartForm elements from the CHOP warehouse and process them to create CHOP's contribution to the ICN GI registry. 
 
 **Content Description**
 
