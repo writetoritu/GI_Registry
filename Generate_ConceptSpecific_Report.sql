@@ -8,7 +8,7 @@ select distinct
   --p.SEX,
   --p.ETHNIC_GRP,
   --TO_CHAR(v2.WT_OZ),
-  --TO_CHAR(v2.WT_KG),
+  TO_CHAR(v2.WT_KG),
   --TO_CHAR(v2.HT_RAW),
   TO_CHAR(v2.HT_CM),
   TO_CHAR(v2.BMI),
