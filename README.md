@@ -16,7 +16,7 @@ GenerateFinalReport.java:  Collapse columns and add additional logic to master r
 
 **Steps**
 
-1. Find concept_keys (in CDW) for all clinical concepts to be populated in the final registry. (This is a manual step)
+1. Find concept_keys (in CDW) for all clinical concepts to be populated in the final registry and create a file called RegistryElementCode.txt in the format "ConceptName|Index|Concept_Key". (This is a manual step)
 2. Use SQL query (Generate_ConceptSpecific_Report.sql) to generate text files (concept-specific) report for each concept
 3. Merge all concept-specific text files together to generate a single file where each row corresponds to a visit and all concept values (Results_Merger.java)
 4. Package the final report, e.g. collapse certain columns and add additional target vocabulary logic (GenerateFinalReport.java)
