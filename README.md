@@ -1,5 +1,6 @@
 GI_Registry
 ===========
+<!--
 This repository contains the code to extract the SmartForm elements from the CHOP warehouse and process them to create CHOP's contribution to the ICN GI registry. 
 
 **Content Description**
@@ -25,3 +26,4 @@ GenerateFinalReport.java:  Collapse columns and add additional logic to master r
 4. Package the final report, e.g. collapse certain columns and add additional target vocabulary logic (GenerateFinalReport.java)
 
 
+-->
